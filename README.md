@@ -8,7 +8,7 @@ High-level repository for recording and coordinating tests across the full ES-DO
 What is ES-DOC ?
 --------------------------------------
 
-ES-DOC stands for Earth Science - Documentation.  It's goal is to provide software tools and services in order to support the distribution of earth science documentation.
+ES-DOC stands for Earth Science - Documentation.  Its goal is to provide software tools and services in order to support the distribution of earth science documentation.
 
 
 What is esdoc-testing ?
