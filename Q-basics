@@ -4,3 +4,7 @@ Q accounts, registering, logging in, and other basics.
 3. Enter and save name/email in user settings
 4. Change password in user settings
 5. Use "Forgot login/password" feature
+
+Test results. pass except
+4. Misleading banner dialog when change password fails (#501)
+5. Forgot login/password feature doesn't exist yet (#500)
