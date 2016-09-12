@@ -1,0 +1,11 @@
+Use cdf2cim to produce simulation pre-CIM JSON files 
+1. Produce pre-CIM JSON files for a CMIP5 simulation
+    a. Run on a set of CMIP5 published datasets corresponding to a single simulation
+    b. Observe correct-looking JSON files based on official MIP5 simulation documents
+    c. ...
+2. Produce pre-CIM JSON files for a CMIP6 simulation
+    a. Run on a set of preliminary CMIP6 datasets for a simulation
+    b. Observe correct-looking JSON files
+    c. ...
+
+No testing done yet.
