@@ -17,6 +17,6 @@ What is esdoc-testing ?
 esdoc-testing contains notes, scripts, and results for testing across the full ES-DOC ecosystem.  Where tests are failing, tickets should be created in the appropriate other repositories.
 
 
-What are the contents of esdoc-cim ?
+What are the contents of esdoc-testing ?
 --------------------------------------
 
