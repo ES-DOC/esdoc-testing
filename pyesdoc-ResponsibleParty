@@ -1,8 +1,8 @@
 Use py-esdoc to create & publish a ResponsibleParty
 1. Create and publish a valid person and an organization
     a. Create a valid person and organization in py-esdoc
-    b. Validate successfully using esdoc shell
-    c. Publish successfully using esdoc shell
+    b. Validate using esdoc shell
+    c. Publish using esdoc shell
     d. See both records in the Viewer
 2. Verify CIM validator
     a. Create an invalid person and organization in py-esdoc
