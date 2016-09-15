@@ -27,3 +27,15 @@
   - [ ] pyesdoc Ensemble
   - [ ] pyesdoc Ensemble Member 
   - [ ] Questionnaire Model Component with two children intialized from a CMIP5 document
+  - 
+  
+###Unscheduled
+  -[ ] pyesdoc citation
+  -[ ] pyesdoc performance
+  -[ ] pyesdoc machine
+  -[ ] Questionnaire citation
+  -[ ] Questionnaire performance
+  -[ ] Questionnaire machine
+  -[ ] Questionnaire link small document (e.g. citation) to Model Component
+  -[ ] Questionnaire edit and publish document created from pyedoc
+
