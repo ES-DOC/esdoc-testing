@@ -26,6 +26,8 @@
   - [ ] pyesdoc Simulation ... from previously harvested netCDF info
   - [ ] pyesdoc Ensemble ... from previously harvested netCDF info
   - [ ] pyesdoc Ensemble Member ... from previously harvested netCDF info
+  - [ ] pyesdoc Ensemble Axis ... from previously harvested netCDF info
+  - [ ] pyesdoc Ensemble Axis Member ... from previously harvested netCDF info
   - [ ] Questionnaire Model Component with two children intialized from a CMIP5 document
   
 ###Unscheduled
