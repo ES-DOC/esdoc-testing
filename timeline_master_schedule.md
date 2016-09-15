@@ -1,6 +1,8 @@
 ##List of tests by month
 * tasks w/o links do not have testing document created yet
 * tasks should be completed by the end of the month listed
+* tests for other documents will be added once they are finalized in the CIM (each TBD)
+* only the schedule through OCT is firm
 
 ###September 2016
  * None
