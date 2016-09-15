@@ -13,7 +13,7 @@
   - [ ] IPython_Notebook Specialized Model Component
   - [ ] IPython_Notebook Specialized Model Component initialized from a CMIP5 document
   - [ ] pyesdoc Responsible Party
-  - [ ] cim2cdf Simulation 
+  - [ ] cim2cdf Simulation dump data only
 
 ###November 2016
   - [ ] Questionnaire Model Component with one child
@@ -24,8 +24,8 @@
 
 ###January 2016
   - [ ] pyesdoc Simulation ... from previously harvested netCDF info
-  - [ ] pyesdoc Ensemble
-  - [ ] pyesdoc Ensemble Member 
+  - [ ] pyesdoc Ensemble ... from previously harvested netCDF info
+  - [ ] pyesdoc Ensemble Member ... from previously harvested netCDF info
   - [ ] Questionnaire Model Component with two children intialized from a CMIP5 document
   
 ###Unscheduled
