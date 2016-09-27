@@ -19,4 +19,9 @@ Use py-esdoc to create & publish a ResponsibleParty
     c. Publish updated records
     d. Observe both sets of records appear in Viewer, and that the more recent one looks to be default
 
-Testing results: No testing done so far
+Testing notes:
+1. Create and publish a valid person and an organization
+- defining a CIM property that doesn't exist isn't an error but it doesn't take
+- esdoc-pyesdoc-validate accepts multiple files but only uses the first one
+- from the validator error it's not clear which attribute is the problem or what's the problem 
+- organisation vs organization
