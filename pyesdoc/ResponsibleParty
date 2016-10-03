@@ -1,12 +1,12 @@
 Use py-esdoc to create & publish a ResponsibleParty
 1. Create and publish a valid person and an organization
-    a. Create a valid person and organization in py-esdoc
-    b. Validate using esdoc shell
-    c. Publish using esdoc shell
+    a. Create a valid person and organization in py-esdoc -- OK
+    b. Validate using esdoc shell -- OK
+    c. Publish using esdoc shell -- OK
     d. See both records in the Viewer
 2. Verify CIM validator
-    a. Create an invalid person and organization in py-esdoc
-    b. See validator fail
+    a. Create an invalid person and organization in py-esdoc -- OK
+    b. See validator fail -- OK
     c. Verify publish command won’t work with invalid CIM document
 3. Verify unpublishing
     a. Do step #1
@@ -14,9 +14,9 @@ Use py-esdoc to create & publish a ResponsibleParty
     c. Verify records no longer appear in Viewer
     d. Republish (step #1 again)
 4. Verify basic CIM versioning ability
-    a. Do step #1
-    b. Update person and organization details
-    c. Publish updated records
+    a. Do step #1 -- OK
+    b. Update person and organization details -- OK
+    c. Publish updated records -- OK
     d. Observe both sets of records appear in Viewer, and that the more recent one looks to be default
 
 Testing notes:
