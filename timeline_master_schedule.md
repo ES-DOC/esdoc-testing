@@ -13,7 +13,7 @@
   - [ ] IPython_Notebook Specialized Model Component
   - [ ] IPython_Notebook Specialized Model Component initialized from a CMIP5 document
   - [ ] [pyesdoc Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/ResponsibleParty)
-  - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cim2cdf/basics)
+  - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cdf2cim/basics)
 
 ###November 2016
   - [ ] Questionnaire Model Component with one child
