@@ -8,12 +8,12 @@
  * None
   
 ###October 2016
-  - [ ] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/Q-ResponsibleParty)
-  - [ ] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/Q-basics)
+  - [ ] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/ResponsibleParty)
+  - [ ] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/basics)
   - [ ] IPython_Notebook Specialized Model Component
   - [ ] IPython_Notebook Specialized Model Component initialized from a CMIP5 document
-  - [ ] pyesdoc Responsible Party
-  - [ ] cim2cdf Simulation dump data only
+  - [ ] [pyesdoc Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/ResponsibleParty)
+  - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cim2cdf/basics)
 
 ###November 2016
   - [ ] Questionnaire Model Component with one child
