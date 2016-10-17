@@ -17,7 +17,10 @@ Use py-esdoc to create & publish a ResponsibleParty
     d. See both records in the database
        psql -U esdoc_db_user esdoc_api
        select * from docs.tbl_document;
-    d. See both records through the web API service
+    e. See both records through the web API service
+       Grab the document UID from the database
+       Project must be in all capital letters
+       http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&project=BETA-TEST&id=<ID>&version=latest
        
 2. Verify CIM validator
     a. Create an invalid person and organization in py-esdoc -- OK
