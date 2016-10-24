@@ -23,7 +23,7 @@ Use py-esdoc to create & publish a ResponsibleParty
 2. Verify CIM validator -- OK
     a. Create an invalid person and organization in py-esdoc
        ./create_invalid_reponsible_party.py
-    b. See validator fail -- OK
+    b. See validator fail
        esdoc-pyesdoc-validate <file>
        Comment: from the validator error it's not clear which attribute is the problem or what's the problem
     c. Archive documents
