@@ -8,8 +8,8 @@
  * None
   
 ###October 2016
-  - [ ] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/ResponsibleParty)
-  - [ ] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/basics)
+  - [x] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/ResponsibleParty)
+  - [x] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/basics)
   - [ ] IPython_Notebook Specialized Model Component
   - [ ] IPython_Notebook Specialized Model Component initialized from a CMIP5 document
   - [ ] [pyesdoc Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/ResponsibleParty)
