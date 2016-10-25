@@ -10,9 +10,9 @@
 ###October 2016
   - [x] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/ResponsibleParty)
   - [x] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/basics)
-  - [ ] IPython_Notebook Specialized Model Component
+  - [x] IPython_Notebook Specialized Model Component
   - [ ] IPython_Notebook Specialized Model Component initialized from a CMIP5 document
-  - [ ] [pyesdoc Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/ResponsibleParty)
+  - [x] [pyesdoc Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/ResponsibleParty)
   - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cdf2cim/basics)
 
 ###November 2016
