@@ -16,10 +16,10 @@
   - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cdf2cim/basics)
 
 ###November 2016
-  - [ ] Questionnaire Model Component with one child
   
 ###December 2016
-  - [ ] Questionnaire Model Component with two children 
+  - [ ] Questionnaire Model Component with one child
+  - [ ] Questionnaire Model Component with nested children 
   - [ ] Questionnaire Model Component with one child initialized from a CMIP5 document
   
 
