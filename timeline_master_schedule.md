@@ -19,8 +19,9 @@
   - [ ] Questionnaire Model Component with one child
   
 ###December 2016
-  - [ ] Questionnaire Model Component with one child initialized from a CMIP5 document
   - [ ] Questionnaire Model Component with two children 
+  - [ ] Questionnaire Model Component with one child initialized from a CMIP5 document
+  
 
 ###January 2016
   - [ ] pyesdoc Simulation ... from previously harvested netCDF info
