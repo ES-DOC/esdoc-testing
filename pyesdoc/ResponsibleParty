@@ -1,4 +1,4 @@
-Use py-esdoc to create & publish a ResponsibleParty
+## Use py-esdoc to create & publish a ResponsibleParty
 1. Create and publish a valid person and an organization -- OK
     a. Create valid person and organization CIM documents in py-esdoc
        rm /esdoc/testing/valid/*
