@@ -2,7 +2,7 @@
 1. Create and publish a valid person and an organization
     1. Create valid person and organization CIM documents in py-esdoc
     ```
-       rm /esdoc/testing/valid/*
+       rm ~/esdoc-testing/pyesdoc/responsible_party/valid/*
        ./create_valid_responsible_party.py
        ```
     2. Validate documents using esdoc shell
