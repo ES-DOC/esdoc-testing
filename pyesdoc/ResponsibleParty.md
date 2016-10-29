@@ -28,7 +28,9 @@ These tests require an ES-DOC shell environment. See the [wordpress site](http:/
     4. Publish
     
       ```
+    esdoc-api-daemons-kill
     esdoc-api-db-reset
+    esdoc-api-daemons-init
     esdoc-api-db-ingest
       ```
       
