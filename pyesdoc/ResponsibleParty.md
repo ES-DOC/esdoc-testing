@@ -9,13 +9,13 @@ These tests require an ES-DOC shell environment. See the [wordpress site](http:/
       ./create_valid_responsible_party.py
       ```
     
-    2. Validate documents
+    2. Validate
     
       ```
       esdoc-pyesdoc-validate ~/esdoc-testing/pyesdoc/responsible_party/valid/<file>
       ```
     
-    3. Archive documents
+    3. Archive
     
       ```
     source $ESDOC_HOME/bash/init.sh
@@ -25,7 +25,7 @@ These tests require an ES-DOC shell environment. See the [wordpress site](http:/
     deactivate
       ```
       
-    4. Publish documents
+    4. Publish
     
       ```
     esdoc-api-db-reset
