@@ -16,17 +16,27 @@
     3. Archive documents
     
       ```
-    source $ESDOC_HOME/bash/init.sh; activate_venv pyesdoc
+    source $ESDOC_HOME/bash/init.sh
+    activate_venv pyesdoc
     rm $ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/*
     python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=/esdoc/testing/valid --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/
+    deactivate
       ```
       
     4. Publish using esdoc shell
+    
+      ```
     esdoc-api-db-reset
     esdoc-api-db-ingest
+      ```
+      
     5. See both records in the database
+    
+      ```
     psql -U esdoc_db_user esdoc_api
        select * from docs.tbl_document;
+       ```
+       
     6. See both records through the web API service
        Grab the document UID from the database
        Project must be in all capital letters
