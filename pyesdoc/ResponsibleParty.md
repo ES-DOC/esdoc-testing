@@ -10,7 +10,7 @@
     2. Validate documents using esdoc shell
     
       ```
-      esdoc-pyesdoc-validate <file>
+      esdoc-pyesdoc-validate ~/esdoc-testing/pyesdoc/responsible_party/valid/<file>
       ```
     
     3. Archive documents
