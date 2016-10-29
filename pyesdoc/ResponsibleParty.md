@@ -1,5 +1,5 @@
 ## Use py-esdoc to create & publish a ResponsibleParty
-These tests require a functioning ES-DOC shell environment. See the [wordpress site](http://wordpress.es-doc.org) for general [ES-DOC shell installation instructions](http://wordpress.es-doc.org/how-to-install-shell/) and [additional instructions and usage notes](http://wordpress.es-doc.org/stack-installation-faq/).
+These tests require an ES-DOC shell environment. See the [wordpress site](http://wordpress.es-doc.org) for general [ES-DOC shell installation instructions](http://wordpress.es-doc.org/how-to-install-shell/) and [additional instructions and usage notes](http://wordpress.es-doc.org/stack-installation-faq/).
 
 1. Create and publish a valid person and an organization
     1. Create valid person and organization CIM documents in py-esdoc
