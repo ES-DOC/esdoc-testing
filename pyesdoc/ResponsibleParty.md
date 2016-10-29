@@ -72,19 +72,23 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
          ```
          
 2. Verify CIM validator
-    1. Create an invalid person and organization in py-esdoc
+    1. Create an invalid organization in py-esdoc; in this case, using a string for a URL rather than a proper CIM OnlineResource property.
     
       ```
-       ./create_invalid_reponsible_party.py
+       rm ~/esdoc-testing/pyesdoc/responsible_party/invalid/*
+       ./create_invalid_responsible_party.py
        ```
        
     2. See validator fail
     
+       *Note: from the validator error it's not clear which attribute is the problem*
+
+    
       ```
-       esdoc-pyesdoc-validate <file>
+      esdoc-pyesdoc-validate ~/esdoc-testing/pyesdoc/responsible_party/invalid/<file>
+
       ```
       
-       Comment: from the validator error it's not clear which attribute is the problem or what's the problem
     3. Archive documents
        As in Step 1c
     4. Verify publish command won’t work with invalid CIM document
