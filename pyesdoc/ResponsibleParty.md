@@ -3,7 +3,8 @@
     1. Create valid person and organization CIM documents in py-esdoc
     ```
     rm ~/esdoc-testing/pyesdoc/responsible_party/valid/*
-    ./create_valid_responsible_party.py```
+    ./create_valid_responsible_party.py
+    ```
     2. Validate documents using esdoc shell
     `esdoc-pyesdoc-validate <file>`
     3. Archive documents
