@@ -8,8 +8,7 @@
     2. Validate documents using esdoc shell
     ```
        esdoc-pyesdoc-validate <file>
-       ```
-       *Appears to accept more than one input file but only uses the first one*
+       ```       
     3. Archive documents
     ```
        source $ESDOC_HOME/bash/init.sh; activate_venv pyesdoc
