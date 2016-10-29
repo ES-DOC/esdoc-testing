@@ -21,7 +21,7 @@ These tests require an ES-DOC shell environment. See the [wordpress site](http:/
     source $ESDOC_HOME/bash/init.sh
     activate_venv pyesdoc
     rm $ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/*
-    python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=~/esdoc-testing/pyesdoc/responsible_party/valid --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/
+    python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=$HOME/esdoc-testing/pyesdoc/responsible_party/valid --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/
     deactivate
       ```
       
