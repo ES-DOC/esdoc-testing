@@ -14,9 +14,13 @@
       ```
     
     3. Archive documents
-    `source $ESDOC_HOME/bash/init.sh; activate_venv pyesdoc`
-    `rm $ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/*`
-    `python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=/esdoc/testing/valid --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/`
+    
+      ```
+    source $ESDOC_HOME/bash/init.sh; activate_venv pyesdoc
+    rm $ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/*
+    python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=/esdoc/testing/valid --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/
+      ```
+      
     4. Publish using esdoc shell
     esdoc-api-db-reset
     esdoc-api-db-ingest
