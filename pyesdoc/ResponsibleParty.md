@@ -19,7 +19,7 @@
     source $ESDOC_HOME/bash/init.sh
     activate_venv pyesdoc
     rm $ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/*
-    python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=/esdoc/testing/valid --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/
+    python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=~/esdoc-testing/pyesdoc/responsible_party/valid --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/
     deactivate
       ```
       
@@ -38,14 +38,26 @@
        ```
        
     6. See both records through the web API service
-       Grab the document UID from the database
-       Project must be in all capital letters
+    
+       Get the document UID from the database, and project must be in all capital letters.
+       
+         ```
 http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&project=BETA-TEST&id=<ID>&version=latest
+         ```
+         
 2. Verify CIM validator
     1. Create an invalid person and organization in py-esdoc
+    
+      ```
        ./create_invalid_reponsible_party.py
+       ```
+       
     2. See validator fail
+    
+      ```
        esdoc-pyesdoc-validate <file>
+      ```
+      
        Comment: from the validator error it's not clear which attribute is the problem or what's the problem
     3. Archive documents
        As in Step 1c
