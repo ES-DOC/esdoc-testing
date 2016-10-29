@@ -1,17 +1,23 @@
 ## Use py-esdoc to create & publish a ResponsibleParty
 1. Create and publish a valid person and an organization
     1. Create valid person and organization CIM documents in py-esdoc
-    ```rm ~/esdoc-testing/pyesdoc/responsible_party/valid/*
-       ./create_valid_responsible_party.py```
+    ```
+    rm ~/esdoc-testing/pyesdoc/responsible_party/valid/*
+    ./create_valid_responsible_party.py
+    ```
     2. Validate documents using esdoc shell
-    ```esdoc-pyesdoc-validate <file>```       
+    ```
+    esdoc-pyesdoc-validate <file>
+    ```
     3. Archive documents
-    ```source $ESDOC_HOME/bash/init.sh; activate_venv pyesdoc
-       rm $ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/*
-       python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=/esdoc/testing/valid --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/```
+    ```
+    source $ESDOC_HOME/bash/init.sh; activate_venv pyesdoc
+    rm $ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/*
+    python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=/esdoc/testing/valid --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/
+    ```
     4. Publish using esdoc shell
     ```esdoc-api-db-reset
-       esdoc-api-db-ingest```
+    esdoc-api-db-ingest
     5. See both records in the database
     ```psql -U esdoc_db_user esdoc_api
        select * from docs.tbl_document;```
