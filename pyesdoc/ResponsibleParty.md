@@ -1,36 +1,24 @@
 ## Use py-esdoc to create & publish a ResponsibleParty
 1. Create and publish a valid person and an organization
     1. Create valid person and organization CIM documents in py-esdoc
-    ```
-       rm ~/esdoc-testing/pyesdoc/responsible_party/valid/*
-       ./create_valid_responsible_party.py
-       ```
+    ```rm ~/esdoc-testing/pyesdoc/responsible_party/valid/*
+       ./create_valid_responsible_party.py```
     2. Validate documents using esdoc shell
-    ```
-       esdoc-pyesdoc-validate <file>
-       ```       
+    ```esdoc-pyesdoc-validate <file>```       
     3. Archive documents
-    ```
-       source $ESDOC_HOME/bash/init.sh; activate_venv pyesdoc
+    ```source $ESDOC_HOME/bash/init.sh; activate_venv pyesdoc
        rm $ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/*
-       python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=/esdoc/testing/valid --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/
-       ```
+       python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=/esdoc/testing/valid --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/```
     4. Publish using esdoc shell
-    ```
-       esdoc-api-db-reset
-       esdoc-api-db-ingest
-       ```
+    ```esdoc-api-db-reset
+       esdoc-api-db-ingest```
     5. See both records in the database
-    ```
-       psql -U esdoc_db_user esdoc_api
-       select * from docs.tbl_document;
-       ```
+    ```psql -U esdoc_db_user esdoc_api
+       select * from docs.tbl_document;```
     6. See both records through the web API service
        Grab the document UID from the database
        Project must be in all capital letters
-       ```
-       http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&project=BETA-TEST&id=<ID>&version=latest
-       ```
+       ```http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&project=BETA-TEST&id=<ID>&version=latest```
 2. Verify CIM validator
     1. Create an invalid person and organization in py-esdoc
        ./create_invalid_reponsible_party.py
