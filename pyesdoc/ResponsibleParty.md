@@ -25,21 +25,21 @@ These tests require an ES-DOC shell environment. See the [wordpress site](http:/
     deactivate
       ```
       
-    4. Publish using esdoc shell
+    4. Publish documents
     
       ```
     esdoc-api-db-reset
     esdoc-api-db-ingest
       ```
       
-    5. See both records in the database
+    5. See records in the database
     
       ```
     psql -U esdoc_db_user esdoc_api
        select * from docs.tbl_document;
        ```
        
-    6. See both records through the web API service
+    6. See records through the web API service
     
        Get the document UID from the database, and project must be in all capital letters.
        
