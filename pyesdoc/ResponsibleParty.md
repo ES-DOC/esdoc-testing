@@ -9,7 +9,7 @@
     ```
        esdoc-pyesdoc-validate <file>
        ```
-       Comment: appears to accept more than one input file but only uses the first one
+       *Appears to accept more than one input file but only uses the first one*
     3. Archive documents
     ```
        source $ESDOC_HOME/bash/init.sh; activate_venv pyesdoc
