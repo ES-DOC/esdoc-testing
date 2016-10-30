@@ -95,10 +95,10 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
     4. Verify publish command won’t work with invalid CIM document
        As in Step 1-iv
 3. Verify unpublishing
+**Not currently possible with esdoc shell but does appear possible through the web API**
     1. Do step #1
     2. Unpublish using esdoc shell
-    3. Verify records no longer appear in Viewer
-    4. Republish (step #1 again)
+    3. Verify records no longer available in web API
    
 4. Verify CIM versioning ability
     1. Do step #1 -- OK
