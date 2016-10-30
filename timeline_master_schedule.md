@@ -8,19 +8,20 @@
  * None
   
 ###October 2016
-  - [ ] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/ResponsibleParty)
-  - [ ] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/basics)
-  - [ ] IPython_Notebook Specialized Model Component
+  - [x] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/ResponsibleParty)
+  - [x] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/basics)
+  - [x] IPython_Notebook Specialized Model Component
   - [ ] IPython_Notebook Specialized Model Component initialized from a CMIP5 document
-  - [ ] [pyesdoc Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/ResponsibleParty)
+  - [x] [pyesdoc Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/ResponsibleParty)
   - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cdf2cim/basics)
 
 ###November 2016
-  - [ ] Questionnaire Model Component with one child
   
 ###December 2016
+  - [ ] Questionnaire Model Component with one child
+  - [ ] Questionnaire Model Component with nested children 
   - [ ] Questionnaire Model Component with one child initialized from a CMIP5 document
-  - [ ] Questionnaire Model Component with two children 
+  
 
 ###January 2016
   - [ ] pyesdoc Simulation ... from previously harvested netCDF info
@@ -31,12 +32,12 @@
   - [ ] Questionnaire Model Component with two children intialized from a CMIP5 document
   
 ###Unscheduled
-  - [ ] pyesdoc citation
-  - [ ] pyesdoc performance
-  - [ ] pyesdoc machine
-  - [ ] Questionnaire citation
-  - [ ] Questionnaire performance
-  - [ ] Questionnaire machine
-  - [ ] Questionnaire link small document (e.g. citation) to Model Component
-  - [ ] Questionnaire edit and publish document created from pyedoc
+  - [ ] pyesdoc Citation
+  - [ ] pyesdoc Performance
+  - [ ] pyesdoc Machine
+  - [ ] Questionnaire Citation
+  - [ ] Questionnaire Performance
+  - [ ] Questionnaire Machine
+  - [ ] Questionnaire link small document (e.g. Citation) to Model Component
+  - [ ] Questionnaire edit and publish document created from pyesdoc
 
