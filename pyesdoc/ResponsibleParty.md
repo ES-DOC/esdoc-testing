@@ -27,14 +27,14 @@ Temporarily modify the shell configuration files to only use CIM documents creat
     1. Create valid person and organization CIM documents in py-esdoc.
     
       ```
-      rm ~/esdoc-testing/pyesdoc/responsible_party/valid/*
+      rm ~/esdoc-testing/pyesdoc/responsible_party/*
       ./create_valid_responsible_party.py
       ```
     
     2. Validate
     
       ```
-      esdoc-pyesdoc-validate ~/esdoc-testing/pyesdoc/responsible_party/valid/<file>
+      esdoc-pyesdoc-validate ~/esdoc-testing/pyesdoc/responsible_party/<file>
       ```
     
     3. Archive
@@ -43,7 +43,7 @@ Temporarily modify the shell configuration files to only use CIM documents creat
     source $ESDOC_HOME/bash/init.sh
     activate_venv pyesdoc
     rm $ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/*
-    python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=$HOME/esdoc-testing/pyesdoc/responsible_party/valid --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc/
+    python $ESDOC_HOME/bash/cmip6/archive_documents.py --source-dir=$HOME/esdoc-testing/pyesdoc/responsible_party --target-dir=$ESDOC_HOME/repos/esdoc-archive/esdoc/beta-test/pyesdoc
     deactivate
       ```
       
@@ -60,7 +60,7 @@ Temporarily modify the shell configuration files to only use CIM documents creat
     
       ```
     psql -U esdoc_db_user esdoc_api
-       select * from docs.tbl_document;
+    select * from docs.tbl_document;
        ```
        
     6. See records through the web API service
@@ -75,7 +75,7 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
     1. Create an invalid organization in py-esdoc; in this case, using a string for a URL rather than a proper CIM OnlineResource property.
     
       ```
-       rm ~/esdoc-testing/pyesdoc/responsible_party/invalid/*
+       rm ~/esdoc-testing/pyesdoc/responsible_party/*
        ./create_invalid_responsible_party.py
        ```
        
@@ -85,20 +85,22 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
 
     
       ```
-      esdoc-pyesdoc-validate ~/esdoc-testing/pyesdoc/responsible_party/invalid/<file>
+      esdoc-pyesdoc-validate ~/esdoc-testing/pyesdoc/responsible_party/<file>
 
       ```
       
     3. Archive documents
-       As in Step 1c
+       As in Step 1-iii
+     
     4. Verify publish command won’t work with invalid CIM document
-       As in Step 1c
+       As in Step 1-iv
 3. Verify unpublishing
     1. Do step #1
     2. Unpublish using esdoc shell
     3. Verify records no longer appear in Viewer
     4. Republish (step #1 again)
-4. Verify basic CIM versioning ability
+   
+4. Verify CIM versioning ability
     1. Do step #1 -- OK
     2. Update person and organization details -- OK
        ./create_valid_responsible_party_version2.py
