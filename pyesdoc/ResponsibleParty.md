@@ -100,7 +100,7 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
     2. Update person and organization details, and publish updated record. This script retrieves the ResponsibleParty document with the given UID, appends ", updated" to the party's name, increases the document version by 1, and then republishes.
     
       ```
-       ./update_valid_responsible_party.py <UID>
+       ./update_responsible_party.py <UID>
       ```
       
     3. Verify updated record is in database, as in step 1-v
