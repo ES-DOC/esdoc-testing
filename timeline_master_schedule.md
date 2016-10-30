@@ -14,7 +14,7 @@
   - [ ] IPython_Notebook Specialized Model Component initialized from a CMIP5 document
   - [x] [pyesdoc Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/ResponsibleParty)
   
-    **2 problems (may be user error): retrieving explicit versions of documents using web API, and deleting documents using web API**
+    **2 problems (may be user error): using web API, retrieving explicit versions of documents and deleting documents**
   - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cdf2cim/basics)
 
 ###November 2016
