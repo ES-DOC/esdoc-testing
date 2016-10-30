@@ -24,7 +24,7 @@ Temporarily modify the shell configuration files to only use CIM documents creat
 
 ### Tests
 1. Create and publish a valid person and an organization
-    1. Create valid person and organization CIM documents in py-esdoc.
+    1. Create valid person and organization CIM documents in using a [py-esdoc script](https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/create_responsible_party.py).
     
       ```
       rm ~/esdoc-testing/pyesdoc/responsible_party/*
@@ -72,7 +72,7 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
          ```
          
 2. Verify CIM validator
-    1. Create an invalid organization in py-esdoc; in this case, using a string for a URL rather than a proper CIM OnlineResource property.
+    1. Create an invalid organization in [py-esdoc](https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/create_invalid_responsible_party.py); in this case, using a string for a URL rather than a proper CIM OnlineResource property.
     
       ```
        rm ~/esdoc-testing/pyesdoc/responsible_party/*
@@ -99,14 +99,14 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
 
 4. Verify CIM versioning ability
     1. Do step #1
-    2. Update person and organization details, and publish updated record. This script retrieves the ResponsibleParty document with the given UID, appends ", updated" to the party's name, increases the document version by 1, and then republishes.
+    2. Update person and organization details, and publish updated record. [`./update_responsible_party`](https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/update_responsible_party.py) retrieves the ResponsibleParty document with the given UID, appends ", updated" to the party's name, increases the document version by 1, and then republishes.
     
       ```
        ./update_responsible_party.py <UID>
       ```
       
     3. Verify updated record is in database, as in step 1-v
-    4. Verify both sets of records can be retrieved from API as in step 1-vi using version=1, version=2, and that the version 2 document is retrieved when version=latest
+    4. Verify both sets of records can be retrieved from API as in step 1-vi using `version=1`, `version=2`, and that the version 2 document is retrieved when `version=latest`
     
       **Only version=latest seems to work**
 
