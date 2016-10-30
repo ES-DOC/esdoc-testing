@@ -119,4 +119,5 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
       curl -v "http://<server>:5000/2/document/delete?document_id=<UID>&document_version=1"
       ```
 
+      **Doesn't work, but may not be the right API syntax**
     3. Verify the record is no longer in the database
