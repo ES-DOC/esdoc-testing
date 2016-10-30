@@ -7,8 +7,8 @@ import requests
 
 import pyesdoc
 
-#_URL = "http://localhost:5000"
-_URL = "http://lvm-000009.gfdl.noaa.gov:5000"
+_URL = "http://localhost:5000"
+#_URL = "http://lvm-000009.gfdl.noaa.gov:5000"
 # next 2 lines should work but don't
 #_URL_GET = "{}/2/document/retrieve".format(_URL)
 #_URL_GET_PARAMS = "?encoding={}&project=BETA-TEST&document_id={}&document_version={}"

@@ -9,7 +9,7 @@ gfdl_url.name = "GFDL web page"
 gfdl_url.protocol = "http"
 
 person = pyesdoc.create(cim.v2.Party)
-person.name = u"Chris E. Blanton"
+person.name = u"Chris Blanton"
 person.address = u"201 Forrestal Rd, Princeton, NJ, USA"
 person.email = u"chris.blanton@noaa.gov"
 person.organisation = 0
