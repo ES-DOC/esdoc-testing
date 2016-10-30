@@ -99,7 +99,7 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
 
 4. Verify CIM versioning ability
     1. Do step #1
-    2. Update person and organization details, and publish updated record. [`./update_responsible_party`](https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/update_responsible_party.py) retrieves the ResponsibleParty document with the given UID, appends ", updated" to the party's name, increases the document version by 1, and then republishes.
+    2. Update person and organization details, and publish updated record. [`./update_responsible_party`](https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/update_responsible_party.py) retrieves the ResponsibleParty document for a UID, appends ", updated" to the party's name, increases the document version by 1, and then republishes.
     
       ```
        ./update_responsible_party.py <UID>
