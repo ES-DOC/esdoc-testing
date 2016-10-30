@@ -105,6 +105,8 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
       
     3. Verify updated record is in database, as in step 1-v
     4. Verify both sets of records can be retrieved from API as in step 1-vi using version=1, version=2, and that the version 2 document is retrieved when version=latest
+    
+    **Only version=latest seems to work**
 
 3. Verify unpublishing
 **Not currently possible with esdoc shell but does appear possible through the web API**
