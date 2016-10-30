@@ -28,7 +28,7 @@ Temporarily modify the shell configuration files to only use CIM documents creat
     
       ```
       rm ~/esdoc-testing/pyesdoc/responsible_party/*
-      ./create_valid_responsible_party.py
+      ./create_responsible_party.py
       ```
     
     2. Validate
@@ -94,15 +94,22 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
      
     4. Verify publish command won’t work with invalid CIM document
        As in Step 1-iv
+
+4. Verify CIM versioning ability
+    1. Do step #1
+    2. Update person and organization details, and publish updated record. This script retrieves the ResponsibleParty document with the given UID, appends ", updated" to the party's name, increases the document version by 1, and then republishes.
+    
+      ```
+       ./update_responsible_party.py <UID>
+      ```
+      
+    3. Verify updated record is in database, as in step 1-v
+    4. Verify both sets of records can be retrieved from API as in step 1-vi using version=1, version=2, and that the version 2 document is retrieved when version=latest
+    
+      **Only version=latest seems to work**
+
 3. Verify unpublishing
 **Not currently possible with esdoc shell but does appear possible through the web API**
     1. Do step #1
     2. Unpublish using esdoc shell
     3. Verify records no longer available in web API
-   
-4. Verify CIM versioning ability
-    1. Do step #1 -- OK
-    2. Update person and organization details -- OK
-       ./create_valid_responsible_party_version2.py
-    3. Publish updated records -- OK
-    4. Observe both sets of records appear in Viewer, and that the more recent one looks to be default
