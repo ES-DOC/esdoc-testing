@@ -111,7 +111,12 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
       **Only version=latest returns a JSON document**
 
 3. Verify unpublishing
-**Not currently possible with esdoc shell but does appear possible through the web API**
+
     1. Do step #1
-    2. Unpublish using esdoc shell
-    3. Verify records no longer available in web API
+    2. Unpublish one of the records
+    
+      ```
+      curl -v "http://<server>:5000/2/document/delete?document_id=<UID>&document_version=1"
+      ```
+
+    3. Verify the record is no longer in the database
