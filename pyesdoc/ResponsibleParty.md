@@ -90,9 +90,11 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
       ```
       
     3. Archive documents
+    
        As in Step 1-iii
      
     4. Verify publish command won’t work with invalid CIM document
+    
        As in Step 1-iv
 
 4. Verify CIM versioning ability
