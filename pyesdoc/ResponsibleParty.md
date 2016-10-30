@@ -98,7 +98,11 @@ http://<server>:5000/2/document/search-id?client=ESDOC-SEARCH&encoding=json&proj
 4. Verify CIM versioning ability
     1. Do step #1
     2. Update person and organization details, and publish updated record. This script retrieves the ResponsibleParty document with the given UID, appends ", updated" to the party's name, increases the document version by 1, and then republishes.
+    
+      ```
        ./update_valid_responsible_party.py <UID>
+      ```
+      
     3. Verify updated record is in database, as in step 1-v
     4. Verify both sets of records can be retrieved from API as in step 1-vi using version=1, version=2, and that the version 2 document is retrieved when and version=latest
 
