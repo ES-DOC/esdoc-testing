@@ -8,7 +8,9 @@
  * None
   
 ###October 2016
-  - [x] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/ResponsibleParty)
+  - [x] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/ResponsibleParty.md)
+  
+    **10/31 testing results: Pass, but can't observe the ES-DOC archive picking up the XML feed yet**
   - [x] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/Basics.md)
   
     **10/31 testing results: [No forgot password feature yet](https://github.com/ES-DOC/esdoc-questionnaire/issues/500) and a [misleading banner on failed password changes](https://github.com/ES-DOC/esdoc-questionnaire/issues/501)**
