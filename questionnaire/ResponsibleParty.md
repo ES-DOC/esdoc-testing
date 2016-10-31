@@ -1,4 +1,5 @@
-Use the Q to create & publish a ResponsibleParty
+## Use the Questionnaire to create & publish a ResponsibleParty
+These tests use [cim2.questionnaire.es-doc.org](http://cim2.questionnaire.es-doc.org) and assume there's an existing CMIP6 project that you are a member of. If there's an existing CMIP6 project but you're not a member of it, go to the project, click "Join project", and have Allyn accept the request.
 1. Create and publish a valid person and an organization
     a. Create a valid person and organization
     b. Validate
