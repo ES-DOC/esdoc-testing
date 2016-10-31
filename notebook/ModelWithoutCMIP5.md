@@ -33,6 +33,5 @@ These tests require an ES-DOC shell environment. See the [wordpress site](http:/
 3. Generate CIM documents
     1. Within Jupyter notebook, select "Kernel => Restart and Run All"
     2. Verify CIM documents are produced
-    
     **Notebooks don't generate CIM documents yet, but they do generate preliminary JSON output**
-    2. Archive, publish, and retrieve document in web API
+    3. Archive, publish, and retrieve document in web API
