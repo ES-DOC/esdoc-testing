@@ -11,6 +11,8 @@
   - [x] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/ResponsibleParty)
   - [x] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/basics)
   - [x] IPython_Notebook Specialized Model Component
+  
+    **Notebook validation and CIM output not implemented yet**
   - [ ] IPython_Notebook Specialized Model Component initialized from a CMIP5 document
   - [x] [pyesdoc Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/ResponsibleParty.md)
   
