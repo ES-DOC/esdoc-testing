@@ -12,11 +12,11 @@
   - [x] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/basics)
   - [x] [IPython Notebook Specialized Model Component](https://github.com/ES-DOC/esdoc-testing/blob/master/notebook/ModelWithoutCMIP5.md)
   
-    **Notebook validation and CIM output not implemented yet**
+    **10/31 testing results: Notebook validation and CIM output not implemented yet**
   - [ ] IPython Notebook Specialized Model Component initialized from a CMIP5 document
   - [x] [pyesdoc Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/ResponsibleParty.md)
   
-    **2 problems: retrieving explicit versions of documents and deleting documents using web API**
+    **10/31 testing results: Unable to retrieve explicit versions of documents or delete documents using web API**
   - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cdf2cim/basics)
 
 ###November 2016
