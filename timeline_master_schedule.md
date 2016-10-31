@@ -10,10 +10,10 @@
 ###October 2016
   - [x] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/ResponsibleParty)
   - [x] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/basics)
-  - [x] IPython_Notebook Specialized Model Component
+  - [x] [IPython Notebook Specialized Model Component](https://github.com/ES-DOC/esdoc-testing/blob/master/notebook/ModelWithoutCMIP5.md)
   
     **Notebook validation and CIM output not implemented yet**
-  - [ ] IPython_Notebook Specialized Model Component initialized from a CMIP5 document
+  - [ ] IPython Notebook Specialized Model Component initialized from a CMIP5 document
   - [x] [pyesdoc Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/ResponsibleParty.md)
   
     **2 problems: retrieving explicit versions of documents and deleting documents using web API**
