@@ -9,7 +9,7 @@
   
 ###October 2016
   - [x] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/ResponsibleParty)
-  - [x] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/basics)
+  - [x] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/Basics.md)
   - [x] [IPython Notebook Specialized Model Component](https://github.com/ES-DOC/esdoc-testing/blob/master/notebook/ModelWithoutCMIP5.md)
   
     **10/31 testing results: Notebook validation and CIM output not implemented yet**
