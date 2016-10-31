@@ -10,6 +10,8 @@
 ###October 2016
   - [x] [Questionnaire Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/ResponsibleParty)
   - [x] [Questionnaire Basics ... create account etc] (https://github.com/ES-DOC/esdoc-testing/blob/master/questionnaire/Basics.md)
+  
+    **10/31 testing results: [No forgot password feature yet](https://github.com/ES-DOC/esdoc-questionnaire/issues/500) and a [misleading banner on failed password changes](https://github.com/ES-DOC/esdoc-questionnaire/issues/501)**
   - [x] [IPython Notebook Specialized Model Component](https://github.com/ES-DOC/esdoc-testing/blob/master/notebook/ModelWithoutCMIP5.md)
   
     **10/31 testing results: Notebook validation and CIM output not implemented yet**
