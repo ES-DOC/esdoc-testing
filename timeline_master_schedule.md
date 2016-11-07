@@ -25,6 +25,10 @@
 ###November 2016
  - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cdf2cim/basics)
  - [ ] IPython Notebook Specialized Model Component initialized from a CMIP5 document
+ - [ ] pyesdoc Performance initial creation (David)
+ - [ ] pyesdoc Machine initial creation (David)
+ - [ ] Questionnaire Performance
+ - [ ] Questionnaire Machine
   
 ###December 2016
   - [ ] Questionnaire Model Component with one child
@@ -47,15 +51,10 @@
   
 ###Unscheduled
   - [ ] pyesdoc Citation
-  - [ ] pyesdoc Performance
-  - [ ] pyesdoc Machine
   - [ ] Questionnaire Citation
-  - [ ] Questionnaire Performance
-  - [ ] Questionnaire Machine
   - [ ] Questionnaire link small document (e.g. Citation) to Model Component
   - [ ] Questionnaire edit and publish document created from pyesdoc
   - [ ] Take cim2cdf data dump of CMIP6 data and convert to a CIM2 document (depends on when any CMIP6 data is available)
-  
   - [ ] render Citation in the Viewer
   - [ ] render Performance in the Viewer
   - [ ] render Machine in the Viewer
@@ -63,4 +62,6 @@
   - [ ] render Ensemble in the Viewer
   - [ ] render Ensemble Member in the Viewer
   - [ ] render Ensemble Axis in Viewer
+  - [ ] pyesdoc Document referencing works
+  - [ ] Questionnaire allow users to choose a Document reference
 
