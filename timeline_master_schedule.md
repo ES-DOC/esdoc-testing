@@ -34,10 +34,10 @@
   - [ ] Questionnaire Model Component with one child
   - [ ] Questionnaire Model Component with nested children 
   - [ ] Questionnaire Model Component with one child initialized from a CMIP5 document
-  - [ ] Ipython notebook validation of CIM output
+  - [ ] IPython notebook validation of CIM output
   - [ ] cim2cdf integrated into ESGF stack
   - [ ] pyesdoc Ability to validate produced documents against the master specialization
-  - [ ] render Model Component document in the Viewer
+  - [ ] Viewer render Model Component document
   
   
 ###January 2016
@@ -47,21 +47,23 @@
   - [ ] pyesdoc Ensemble Axis ... from previously harvested netCDF info
   - [ ] pyesdoc Ensemble Axis Member ... from previously harvested netCDF info
   - [ ] Questionnaire Model Component with two children intialized from a CMIP5 document
-  - [ ] Take cim2cdf data dump of CMIP5 data and convert it to a CIM2 document
+  - [ ] cim2cdf data dump of CMIP5 data and convert it to a CIM2 document
   
 ###Unscheduled
   - [ ] pyesdoc Citation
   - [ ] Questionnaire Citation
   - [ ] Questionnaire link small document (e.g. Citation) to Model Component
-  - [ ] Questionnaire edit and publish document created from pyesdoc
-  - [ ] Take cim2cdf data dump of CMIP6 data and convert to a CIM2 document (depends on when any CMIP6 data is available)
-  - [ ] render Citation in the Viewer
-  - [ ] render Performance in the Viewer
-  - [ ] render Machine in the Viewer
-  - [ ] render Simulation in the Viewer
-  - [ ] render Ensemble in the Viewer
-  - [ ] render Ensemble Member in the Viewer
-  - [ ] render Ensemble Axis in Viewer
+  - [ ] Questionnaire import CIM2 document
+  - [ ] Quesitonnaire copy exisiting document for editing
+  - [ ] cim2cdf data dump of CMIP6 data and convert to a CIM2 document (depends on when any CMIP6 data is available)
+  - [ ] Viewer render Citation
+  - [ ] Viewer render Performance
+  - [ ] Viewer render Machine
+  - [ ] Viewer render Simulation
+  - [ ] Viewer render Ensemble
+  - [ ] Viewer render Ensemble Member
+  - [ ] Viewer render Ensemble Axis
   - [ ] pyesdoc Document referencing works
   - [ ] Questionnaire allow users to choose a Document reference
+  - [ ] pyesdoc convert CMIP5 Model Component document to CIM2 (requires realm mapping from CMIP5 to CMIP6)
 
