@@ -17,20 +17,25 @@
   - [x] [IPython Notebook Specialized Model Component](https://github.com/ES-DOC/esdoc-testing/blob/master/notebook/ModelWithoutCMIP5.md)
   
     **10/31 testing results: Notebook validation and CIM output not implemented yet**
-  - [ ] IPython Notebook Specialized Model Component initialized from a CMIP5 document
+ 
   - [x] [pyesdoc Responsible Party] (https://github.com/ES-DOC/esdoc-testing/blob/master/pyesdoc/ResponsibleParty.md)
   
     **10/31 testing results: Unable to retrieve explicit versions of documents or delete documents using web API**
-  - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cdf2cim/basics)
-
+ 
 ###November 2016
+ - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cdf2cim/basics)
+ - [ ] IPython Notebook Specialized Model Component initialized from a CMIP5 document
   
 ###December 2016
   - [ ] Questionnaire Model Component with one child
   - [ ] Questionnaire Model Component with nested children 
   - [ ] Questionnaire Model Component with one child initialized from a CMIP5 document
+  - [ ] Ipython notebook validation of CIM output
+  - [ ] cim2cdf integrated into ESGF stack
+  - [ ] pyesdoc Ability to validate produced documents against the master specialization
+  - [ ] render Model Component document in the Viewer
   
-
+  
 ###January 2016
   - [ ] pyesdoc Simulation ... from previously harvested netCDF info
   - [ ] pyesdoc Ensemble ... from previously harvested netCDF info
@@ -38,6 +43,7 @@
   - [ ] pyesdoc Ensemble Axis ... from previously harvested netCDF info
   - [ ] pyesdoc Ensemble Axis Member ... from previously harvested netCDF info
   - [ ] Questionnaire Model Component with two children intialized from a CMIP5 document
+  - [ ] Take cim2cdf data dump of CMIP5 data and convert it to a CIM2 document
   
 ###Unscheduled
   - [ ] pyesdoc Citation
@@ -48,4 +54,13 @@
   - [ ] Questionnaire Machine
   - [ ] Questionnaire link small document (e.g. Citation) to Model Component
   - [ ] Questionnaire edit and publish document created from pyesdoc
+  - [ ] Take cim2cdf data dump of CMIP6 data and convert to a CIM2 document (depends on when any CMIP6 data is available)
+  
+  - [ ] render Citation in the Viewer
+  - [ ] render Performance in the Viewer
+  - [ ] render Machine in the Viewer
+  - [ ] render Simulation in the Viewer
+  - [ ] render Ensemble in the Viewer
+  - [ ] render Ensemble Member in the Viewer
+  - [ ] render Ensemble Axis in Viewer
 
