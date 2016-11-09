@@ -66,4 +66,8 @@
   - [ ] pyesdoc Document referencing works
   - [ ] Questionnaire allow users to choose a Document reference
   - [ ] pyesdoc convert CMIP5 Model Component document to CIM2 (requires realm mapping from CMIP5 to CMIP6)
+  - [ ] test that users can change Conformance table
+  - [ ] test that users can generate (and publish) Conformance documents from Conformance table
+  - [ ] test that institute_controlled_info_url ("further_further_info_url") can be added to an Ensembles document and edited
+  
 
