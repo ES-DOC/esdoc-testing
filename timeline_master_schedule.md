@@ -24,6 +24,9 @@
  
 ###November 2016
  - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cdf2cim/basics)
+ 
+   ** 2016-11-08 a) Run cdf2cim successfully on CMIP5 published datasets at BADC
+   
  - [ ] IPython Notebook Specialized Model Component initialized from a CMIP5 document (Mark)
  - [ ] pyesdoc Performance initial creation (David)
  - [ ] pyesdoc Machine initial creation (David)
