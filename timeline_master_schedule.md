@@ -24,7 +24,7 @@
  
 ###November 2016
  - [ ] [cim2cdf Simulation dump data only] (https://github.com/ES-DOC/esdoc-testing/blob/master/cdf2cim/basics)
- - [ ] IPython Notebook Specialized Model Component initialized from a CMIP5 document
+ - [ ] IPython Notebook Specialized Model Component initialized from a CMIP5 document (Mark)
  - [ ] pyesdoc Performance initial creation (David)
  - [ ] pyesdoc Machine initial creation (David)
  - [ ] Questionnaire Performance
