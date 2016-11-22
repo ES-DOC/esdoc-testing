@@ -29,7 +29,13 @@
    
  - [ ] IPython Notebook Specialized Model Component initialized from a CMIP5 document (Mark)
  - [ ] pyesdoc Performance initial creation (David)
+ 
+   *Details to follow (2016-11-22) ...*
+ 
  - [ ] pyesdoc Machine initial creation (David)
+ 
+   *Details to follow (2016-11-22) ...*
+ 
  - [ ] Questionnaire Performance
  - [ ] Questionnaire Machine
   
