@@ -28,13 +28,10 @@
    **2016-11-08 a) Run cdf2cim successfully on CMIP5 published datasets at BADC**
    
  - [ ] IPython Notebook Specialized Model Component initialized from a CMIP5 document (Mark)
- - [ ] pyesdoc Performance initial creation (David)
+ - [ ] pyesdoc Performance and Machine initial creation (David)
  
-   *Details to follow (2016-11-22) ...*
- 
- - [ ] pyesdoc Machine initial creation (David)
- 
-   *Details to follow (2016-11-22) ...*
+   **2016-11-25 created, stored (on local disk) retrived and interogated Performance and Machine docuemnts. See this [IPython notebook](https://github.com/ES-DOC/esdoc-docs/blob/master/cmip6/performance/Performance.ipynb) and [this one](
+https://github.com/ES-DOC/esdoc-py-client/blob/master/notebooks/performance-mip-pyesdoc.ipynb) for details**
  
  - [ ] Questionnaire Performance
  - [ ] Questionnaire Machine
